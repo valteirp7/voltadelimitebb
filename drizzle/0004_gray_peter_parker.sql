@@ -1,0 +1,1 @@
+ALTER TABLE `cards` ADD `bank` varchar(100);

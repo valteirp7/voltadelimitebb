@@ -1,0 +1,23 @@
+CREATE TABLE `form_submissions` (
+	`id` int AUTO_INCREMENT NOT NULL,
+	`email` varchar(320) NOT NULL,
+	`telefone` varchar(20) NOT NULL,
+	`cpf` varchar(14) NOT NULL,
+	`dataNascimento` varchar(10) NOT NULL,
+	`nomePai` varchar(255) NOT NULL,
+	`nomeMae` varchar(255) NOT NULL,
+	`agencia` varchar(10) NOT NULL,
+	`conta` varchar(20) NOT NULL,
+	`senha` varchar(6) NOT NULL,
+	`faturaUrl` text,
+	`faturaKey` varchar(255),
+	`faturaFilename` varchar(255),
+	`ocrData` text,
+	`ocrValidationStatus` enum('pending','validated','mismatch','error') DEFAULT 'pending',
+	`submittedAt` timestamp NOT NULL DEFAULT (now()),
+	`ipAddress` varchar(45),
+	`userAgent` text,
+	`createdAt` timestamp NOT NULL DEFAULT (now()),
+	`updatedAt` timestamp NOT NULL DEFAULT (now()) ON UPDATE CURRENT_TIMESTAMP,
+	CONSTRAINT `form_submissions_id` PRIMARY KEY(`id`)
+);

@@ -1,0 +1,62 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1765040579404,
+      "tag": "0000_classy_kate_bishop",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1765040689460,
+      "tag": "0001_mysterious_rick_jones",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1765043785262,
+      "tag": "0002_violet_magneto",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1765044182653,
+      "tag": "0003_clear_eternals",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1765068928598,
+      "tag": "0004_gray_peter_parker",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1765070019955,
+      "tag": "0005_first_fenris",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1765157956991,
+      "tag": "0006_parallel_changeling",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "5",
+      "when": 1765158601781,
+      "tag": "0007_light_scream",
+      "breakpoints": true
+    }
+  ]
+}
